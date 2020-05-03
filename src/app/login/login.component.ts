@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginComponent implements OnInit {
 
+  // Variaveis para armazenar os dados do formulario
+  public email = 'root';
+  public senha: string;
+
   constructor() { }
 
   ngOnInit(): void {
